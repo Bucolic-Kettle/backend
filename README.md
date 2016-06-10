@@ -95,7 +95,7 @@ npm install
 
 **Step 2:** Next, set up an AWS account if you don't already have one.
 
-**Step 3:** Next, create an S3 bucket.
+**Step 3:** Next, create an S3 bucket. See [this](https://devcenter.heroku.com/articles/s3#s3-setup) if you don't already have an S3 bucket setup.
 
 **Step 4:** Next, there is a file within the `config/environment` folder called `secrets.example.js`. Rename that to `secrets.js`. **NOTE:** make sure your `secrets.js` is included within `.gitignore` to avoid publishing your AWS API keys (created in next step) to GitHub.
 
