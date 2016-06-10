@@ -16,7 +16,7 @@ const fileFilter = (req, file, cb) => {
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        fs.mkdirAsync(path.join(__dirname + 'uploads/'))
+        fs.mkdirAsync(path.join(process.cwd() + 'uploads/'))
           .then(() => cb(null, 'uploads/'))
     },
     filename: (req, file, cb) => {
