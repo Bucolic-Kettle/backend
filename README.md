@@ -4,11 +4,11 @@
 
 ### What is Docker?
 
-![What is Docker](/Users/danielconger/Desktop/Desktop_Folders/mac-down/docker/what-is.png)
+![What is Docker](https://cloud.githubusercontent.com/assets/7155709/15972826/6f53e23a-2ef5-11e6-8631-0404dbcee291.png)
 
 ### Why Use Docker?
 
-![What is Docker](/Users/danielconger/Desktop/Desktop_Folders/mac-down/docker/why-use.png)
+![What is Docker](https://cloud.githubusercontent.com/assets/7155709/15972825/6f52b504-2ef5-11e6-995d-19d5254d15eb.png)
 
 As a web developer who is part of a collaborative team, you might want to use Docker for several reasons:
 
@@ -18,7 +18,7 @@ As a web developer who is part of a collaborative team, you might want to use Do
 ### Docker Tools to Become Familiar With:
 
 **Docker Toolbox**:
-![What is Docker](/Users/danielconger/Desktop/Desktop_Folders/mac-down/docker/docker-toolbox.png)
+![What is Docker](https://cloud.githubusercontent.com/assets/7155709/15972824/6f51ff9c-2ef5-11e6-91a7-4e8e10455953.png)
 
 Docker Toolbox is the "Getting Started" point of setting up Docker on your local machine. See the link in the image above or click [here](https://www.docker.com/products/docker-toolbox) to get started downloading.
 
