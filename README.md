@@ -53,10 +53,8 @@ This directory attempts to show how multiple web-servers with differing responsi
 	├── services/
 	|   └── image-server/
 	|   |   ├── api/
-	|   |   |   ├── Accepted.jsx
-	|   |   |   ├── CountdownTimer.jsx
-	|   |   |   ├── RequestReceived.jsx
-	|   |   |   └── RequestSent.jsx
+	|   |   |   ├── image/
+	|   |   |   └── index.js
 	|   |   |
 	|   |   ├── config/
 	|   |   |   ├── environment/
