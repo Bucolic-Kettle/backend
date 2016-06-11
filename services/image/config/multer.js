@@ -16,14 +16,18 @@ const fileFilter = (req, file, cb) => {
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        fs.mkdirAsync(path.join(process.cwd() + 'uploads/'))
-          .then(() => cb(null, 'uploads/'))
+        const imagePath = path.join(process.cwd() + '/uploads/');
+
+        if (!fs.existsSync(imagePath)) {
+           fs.mkdirAsync(imagePath)
+            .then(() => cb(null, 'uploads/')) 
+        } else {
+            cb(null, 'uploads/');
+        }
     },
     filename: (req, file, cb) => {
         const extension = acceptedMIMETypes[file.mimetype];
-        const id = 1;
-        req.body.id = id;
-        cb(null, id + extension);
+        cb(null, file.fieldname + '-' + Date.now() + extension);
     }
 });
 
